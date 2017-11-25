@@ -1,9 +1,10 @@
 # ledenet_api
-An API for the sunix 5 Channel RGB+CW+CC Controller. ( https://www.amazon.de/gp/product/B075X8TJCD/ )
+An API for the sunix 5 Channel RGB+CW+CC Controller. ( https://www.amazon.de/gp/product/B075X8TJCD/ ) 
+Works with the white one and the "new model" black version.
 
-Based pn the code of sidoh https://github.com/sidoh/ledenet_api
+Based on the code of sidoh https://github.com/sidoh/ledenet_api
 
-I did not change the name ("lednet-ufo"). So don't be confused. Thuis code only runs with a 5 channel controller.
+I did not change the name ("lednet-ufo"). So don't be confused. This code is made for a 5 channel controller. Maybe it works with other like the 4 channel UFO etc.
 
 Rest of Doku ist from sido...
 
