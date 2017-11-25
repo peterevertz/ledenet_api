@@ -6,7 +6,7 @@ Based on the code of sidoh https://github.com/sidoh/ledenet_api
 
 I did not change the name ("lednet-ufo"). So don't be confused. This code is made for a 5 channel controller. Maybe it works with other like the 4 channel UFO etc.
 
-Rest of Doku ist from sido...
+Rest of Doku ist from sidoh...
 
 ## What's this?
 This RGB LED controller is a relatively cheap (~$30) alternative to something like the Phillips Hue RGB Strip + Hub, which can run you between $100 and $200. 
