@@ -1,5 +1,11 @@
 # ledenet_api
-An API for the [LEDENET Magic UFO LED WiFi Controller](http://amzn.com/B00MDKOSN0)
+An API for the sunix 5 Channel RGB+CW+CC Controller. ( https://www.amazon.de/gp/product/B075X8TJCD/ )
+
+Based pn the code of sidoh https://github.com/sidoh/ledenet_api
+
+I did not change the name ("lednet-ufo"). So don't be confused. Thuis code only runs with a 5 channel controller.
+
+Rest of Doku ist from sido...
 
 ## What's this?
 This RGB LED controller is a relatively cheap (~$30) alternative to something like the Phillips Hue RGB Strip + Hub, which can run you between $100 and $200. 

@@ -45,6 +45,10 @@ opts = OptionParser.new do |opts|
     options[:warm_white] = v
   end
 
+  opts.on("-c", "--cold-white [VALUE]", Integer, "Set cold white to VALUE") do |v|
+    options[:cold_white] = v
+  end
+
   opts.on("--on", "Turn on the controller") do |v|
     options[:on?] = true
   end
@@ -133,7 +137,7 @@ begin
     api = LEDENET::Api.new(ip)
 
     color_params = options.select do |k,_|
-      %w{red green blue warm_white}.include?(k.to_s)
+      %w{red green blue warm_white cold_white}.include?(k.to_s)
     end
 
     if !options[:on?].nil?

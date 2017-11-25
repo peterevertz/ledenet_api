@@ -43,8 +43,8 @@ module LEDENET
       update_color_data(red: r, green: g, blue: b)
     end
 
-    def update_warm_white(warm_white)
-      update_color_data(warm_white: warm_white)
+    def update_white(warm_white,cold_white)
+      update_color_data(warm_white: warm_white,cold_white: cold_white)
     end
 
     def update_color_data(o)
@@ -56,12 +56,12 @@ module LEDENET
       current_color_data.values_at(:red, :green, :blue)
     end
 
-    def current_warm_white
-      current_color_data[:warm_white]
+    def current_white
+      current_color_data.values_at(:warm_white, :coldwhite)
     end
 
     def current_color_data(response = request_status)
-      select_status_keys(response, *%w{red green blue warm_white})
+      select_status_keys(response, *%w{red green blue warm_white cold_white})
     end
 
     def update_function(fn)
