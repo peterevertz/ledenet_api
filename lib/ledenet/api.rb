@@ -57,7 +57,7 @@ module LEDENET
     end
 
     def current_white
-      current_color_data.values_at(:warm_white, :coldwhite)
+      current_color_data.values_at(:warm_white, :cold_white)
     end
 
     def current_color_data(response = request_status)
